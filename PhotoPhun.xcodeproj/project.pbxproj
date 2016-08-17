@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2029D6C1F2DD3EA227F8E4AC /* Pods_PhotoPhun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE2438267E887685C4884BE /* Pods_PhotoPhun.framework */; };
+		F9862DC41D63B8530082BD45 /* TPPPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9862DC31D63B8530082BD45 /* TPPPhotoController.m */; };
+		F9862DC71D63BD640082BD45 /* TPPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9862DC61D63BD640082BD45 /* TPPDetailViewController.m */; };
 		F9B5F2151D52A12500473506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5F2141D52A12500473506 /* main.m */; };
 		F9B5F2181D52A12500473506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5F2171D52A12500473506 /* AppDelegate.m */; };
-		F9B5F21B1D52A12500473506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5F21A1D52A12500473506 /* ViewController.m */; };
 		F9B5F21E1D52A12500473506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B5F21C1D52A12500473506 /* Main.storyboard */; };
 		F9B5F2201D52A12500473506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B5F21F1D52A12500473506 /* Assets.xcassets */; };
 		F9B5F2231D52A12500473506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B5F2211D52A12500473506 /* LaunchScreen.storyboard */; };
+		F9B5F22C1D52A22100473506 /* TPPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5F22B1D52A22100473506 /* TPPCollectionViewController.m */; };
+		F9B5F22F1D52AA2B00473506 /* TPPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5F22E1D52AA2B00473506 /* TPPCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FE2438267E887685C4884BE /* Pods_PhotoPhun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPhun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616F7404934D379EC623395F /* Pods-PhotoPhun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhun.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun.release.xcconfig"; sourceTree = "<group>"; };
+		93B426B7A207C8C7289E098E /* Pods-PhotoPhun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun.debug.xcconfig"; sourceTree = "<group>"; };
+		F9862DC21D63B8530082BD45 /* TPPPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPPhotoController.h; sourceTree = "<group>"; };
+		F9862DC31D63B8530082BD45 /* TPPPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPPhotoController.m; sourceTree = "<group>"; };
+		F9862DC51D63BD640082BD45 /* TPPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPPDetailViewController.h; path = ../TPPDetailViewController.h; sourceTree = "<group>"; };
+		F9862DC61D63BD640082BD45 /* TPPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPPDetailViewController.m; path = ../TPPDetailViewController.m; sourceTree = "<group>"; };
 		F9B5F2101D52A12500473506 /* PhotoPhun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPhun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B5F2141D52A12500473506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9B5F2161D52A12500473506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9B5F2171D52A12500473506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F9B5F2191D52A12500473506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F9B5F21A1D52A12500473506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9B5F21D1D52A12500473506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B5F21F1D52A12500473506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B5F2221D52A12500473506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B5F2241D52A12500473506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B5F22A1D52A22100473506 /* TPPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPPCollectionViewController.h; path = ../TPPCollectionViewController.h; sourceTree = "<group>"; };
+		F9B5F22B1D52A22100473506 /* TPPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPPCollectionViewController.m; path = ../TPPCollectionViewController.m; sourceTree = "<group>"; };
+		F9B5F22D1D52AA2B00473506 /* TPPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPCollectionViewCell.h; sourceTree = "<group>"; };
+		F9B5F22E1D52AA2B00473506 /* TPPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2029D6C1F2DD3EA227F8E4AC /* Pods_PhotoPhun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E25CCE132B159FEBC17283B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE2438267E887685C4884BE /* Pods_PhotoPhun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C866CAF4AE6E701DE9AF31E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93B426B7A207C8C7289E098E /* Pods-PhotoPhun.debug.xcconfig */,
+				616F7404934D379EC623395F /* Pods-PhotoPhun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9B5F2071D52A12500473506 = {
 			isa = PBXGroup;
 			children = (
 				F9B5F2121D52A12500473506 /* PhotoPhun */,
 				F9B5F2111D52A12500473506 /* Products */,
+				C866CAF4AE6E701DE9AF31E4 /* Pods */,
+				7E25CCE132B159FEBC17283B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +93,14 @@
 			children = (
 				F9B5F2161D52A12500473506 /* AppDelegate.h */,
 				F9B5F2171D52A12500473506 /* AppDelegate.m */,
-				F9B5F2191D52A12500473506 /* ViewController.h */,
-				F9B5F21A1D52A12500473506 /* ViewController.m */,
+				F9862DC21D63B8530082BD45 /* TPPPhotoController.h */,
+				F9862DC31D63B8530082BD45 /* TPPPhotoController.m */,
+				F9B5F22D1D52AA2B00473506 /* TPPCollectionViewCell.h */,
+				F9B5F22E1D52AA2B00473506 /* TPPCollectionViewCell.m */,
+				F9B5F22A1D52A22100473506 /* TPPCollectionViewController.h */,
+				F9B5F22B1D52A22100473506 /* TPPCollectionViewController.m */,
+				F9862DC51D63BD640082BD45 /* TPPDetailViewController.h */,
+				F9862DC61D63BD640082BD45 /* TPPDetailViewController.m */,
 				F9B5F21C1D52A12500473506 /* Main.storyboard */,
 				F9B5F21F1D52A12500473506 /* Assets.xcassets */,
 				F9B5F2211D52A12500473506 /* LaunchScreen.storyboard */,
@@ -86,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9B5F2271D52A12500473506 /* Build configuration list for PBXNativeTarget "PhotoPhun" */;
 			buildPhases = (
+				2D4201D6C701BE6F2F3CC2F5 /* [CP] Check Pods Manifest.lock */,
 				F9B5F20C1D52A12500473506 /* Sources */,
 				F9B5F20D1D52A12500473506 /* Frameworks */,
 				F9B5F20E1D52A12500473506 /* Resources */,
+				1C44537CF1EECDB34A9173D6 /* [CP] Embed Pods Frameworks */,
+				9BB885BE61A83665ED096CC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +186,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C44537CF1EECDB34A9173D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D4201D6C701BE6F2F3CC2F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB885BE61A83665ED096CC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9B5F20C1D52A12500473506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B5F21B1D52A12500473506 /* ViewController.m in Sources */,
+				F9862DC71D63BD640082BD45 /* TPPDetailViewController.m in Sources */,
+				F9B5F22C1D52A22100473506 /* TPPCollectionViewController.m in Sources */,
+				F9B5F22F1D52AA2B00473506 /* TPPCollectionViewCell.m in Sources */,
 				F9B5F2181D52A12500473506 /* AppDelegate.m in Sources */,
+				F9862DC41D63B8530082BD45 /* TPPPhotoController.m in Sources */,
 				F9B5F2151D52A12500473506 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +354,10 @@
 		};
 		F9B5F2281D52A12500473506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B426B7A207C8C7289E098E /* Pods-PhotoPhun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PhotoPhun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caleblwoods.PhotoPhun;
@@ -272,8 +367,10 @@
 		};
 		F9B5F2291D52A12500473506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616F7404934D379EC623395F /* Pods-PhotoPhun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PhotoPhun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caleblwoods.PhotoPhun;
@@ -300,6 +397,7 @@
 				F9B5F2291D52A12500473506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
